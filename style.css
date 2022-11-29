@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    padding: 0;
+
+
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Public Sans', sans-serif;
+    background: rgb(219,182,252);
+    background: linear-gradient(25deg, rgba(219,182,252,1) 0%, rgba(249,233,252,1) 82%);
+}
+
+
+a {
+    text-decoration: none;
+    color: #ec6ff7;
+}
+
+a:hover {
+    color: #f4baf9; 
+    transition: 0.7s;
+    
+}
+
+hr {
+    
+    border-color:#9f779f;
+
+}
+
+.header, .footer {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 7%;
+    background-color: #381453;
+    color: white;
+    text-decoration: none;
+
+}
+
+.section1, .section2 {
+    width: 100%;
+    min-height: 22.5%;
+}
+
+.section1 {
+    padding-top: 8%;
+    width: 80%;
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-bottom: 3%;
+}
+
+
+/*HEADER STUFF*/
+
+
+.headerlogo {
+    height:50px;
+    width: 50px;
+    margin-left: 5%;
+
+
+}
+.headerlinks {
+    font-size: medium;
+    margin-left: auto;
+    padding-right: 50px;
+    font-weight: 500;
+}
+
+.hlink {
+    margin-right: 30px;
+
+}
+
+.hl {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 10px;
+}
+
+/*SECTION 1*/
+
+.section1 {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.s1text {
+    display:flex;
+    flex-direction: column;
+    justify-content:flex-start;
+}
+
+.s1h1 {
+    font-size: xx-large;
+    font-weight: 900;
+    color: #660066;
+
+}
+
+.s1p1 {
+    font-size: large;
+    padding-bottom: 2%;
+    color: #262626;
+}
+
+.s1img {
+    margin-right:10%;
+}
+
+
+.s1imgbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+    width: 350px;
+    height: 350px;
+    margin-right: 50%;
+    margin-left: 35%;
+    box-shadow: 10px 10px 5px rgb(132, 110, 137);
+}
+
+.section2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.s2box {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #381453;
+    border-radius: 10px;
+    width: 50%;
+    margin-bottom: 50px;
+    margin-top:50px;
+
+}
+
+.s2header {
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: #ffffff;
+    font-weight: 800;
+    margin: 25px;
+    
+}
+
+.s2h5 {
+    text-align:center;
+    margin-bottom: 5%;
+    font-size: medium;
+
+}
+.h5link {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.book {
+
+    background-color: #824283;
+    color: white;
+    padding: 15px 25px;
+    text-decoration: none;
+    border-radius: 10px;
+    border: none;
+    font-weight: 900;
+    
+  }
+
+  .book:hover {
+    background-color: #bd79be;
+    transition: 0.7s;
+  }
+
+
+.footer {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: small;
+}
+
+/*https://cssgradient.io/*/
